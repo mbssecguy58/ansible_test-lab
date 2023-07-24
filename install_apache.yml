@@ -30,12 +30,12 @@
     dnf:
       name: httpd
       state: latest
-    when: ansible_distribution == "Fedora"  
+    when: ansible_distribution == "Fedora"
+  
 
   - name: add php support for httpd
     dnf:
       name: php
       state: latest
-    when: ansible_distribution == "Fedora
-"
+    when: ansible_distribution == "Fedora"
 
