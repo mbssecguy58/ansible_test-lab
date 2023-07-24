@@ -1,5 +1,5 @@
-vmuser1@10.10.10.129
-vmuser2@10.10.10.130
-vmuser3@10.10.10.131
-vmuser03@10.10.10.139
+vmuser1@10.10.10.129 apache_package=apache2 php_package=libapache2-mod-php
+vmuser2@10.10.10.130 apache_package=apache2 php_package=libapache2-mod-php
+vmuser3@10.10.10.131 apache_package=apache2 php_package=libapache2-mod-php
+vmuser03@10.10.10.139 apache_package=httpd php_package=-php
 
